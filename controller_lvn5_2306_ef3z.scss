@@ -1,0 +1,40 @@
+53 * 72
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+99,6,40,87,19,56,77,74,12,32,76,64,2,19,10,26,94,81,63,47,32,48,33,80,34,14,55,70,23,79,27,39,12,34,53,19,59,37,18,39,95,60,19,81,10,6,76,27,40,14,56,67,16,16,94,8,63,76,19,35,92,31,2,64,88,62,52,55,25,38,77,76 / true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+false - false
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+orange + 98,16,57,75,88,90,16,45,94,62,18,82,6,55,88,19,96,18,51,6,67,51,27,39,49,2,2,53,25,16,45,83,45,3,60,5,50,78,19,53,70,98,40,34,25,41,52,13,68,38,21,89,66,27,72,5,11,88,13,81,31,85
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+29,28,15,75,19,3,30,21,18,51,61,47,9,66,69,32,9,9,10 * 70
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+86,26,9,19,67,77,67,57,29,8,51,35,83,19,58,31,30,58,19,22,89,89,13,33,33,3,81,24,97,91,48,32,13,53,12,31,42,60,88,92,19,80,19,11,56,95,36,51,38,47,88,72,84,71,92,24,80,72,77,99,14,12,69,33,22,63,82,87,26,7,64,64,65,47,96,84,66,75 + 2
+function addNumbers(a, b) { return a + b; }
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+97 / false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+orange * 2
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+9,11,40,19,79,75,37,19,70,62,43,43,7,23,21,38,94,47,91,27,72,62,41,74,0,79,0,70,49,1,24,18,78,18,35,90 * grape
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana / grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomSubset = (array, size) => array.slice(0, size);
+true / false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
